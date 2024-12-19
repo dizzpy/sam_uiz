@@ -3,11 +3,6 @@
 
 A customizable UI components library for Flutter. This package provides reusable components like buttons, input fields, and cards for quick integration into your Flutter apps.
 
-## Features
-
-- **DizzexButton**: A customizable button widget.
-- **DizzexCard**: A customizable card widget to wrap content.
-- **DizzexInputBox**: A customizable input box widget for text entry.
 
 ## Installation
 

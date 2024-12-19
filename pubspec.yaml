@@ -1,6 +1,6 @@
 name: sam_uiz
 description: "A customizable UI components library (Button, Card, Input Box)."
-version: 0.0.2
+version: 0.0.6
 homepage: https://github.com/dizzpy/sam_uiz
 
 environment:
@@ -19,3 +19,5 @@ dev_dependencies:
 flutter:
 
 contact: dizzzpy@gmail.com
+
+deprecated: true
