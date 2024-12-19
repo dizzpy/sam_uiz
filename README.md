@@ -1,39 +1,64 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
+# sam_uiz
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A customizable UI components library for Flutter. This package provides reusable components like buttons, input fields, and cards for quick integration into your Flutter apps.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- **DizzexButton**: A customizable button widget.
+- **DizzexCard**: A customizable card widget to wrap content.
+- **DizzexInputBox**: A customizable input box widget for text entry.
 
-## Getting started
+## Installation
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+To use this package, add `sam_uiz` to your `pubspec.yaml` file:
+
+```yaml
+dependencies:
+  sam_uiz:
+    git:
+      url: https://github.com/dizzpy/sam_uiz.git
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+### DizzexButton
 
 ```dart
-const like = 'sample';
+DizzexButton(
+  title: 'Press Me',
+  onPressed: () {
+    print('Button pressed!');
+  },
+)
 ```
 
-## Additional information
+### DizzexCard
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```dart
+DizzexCard(
+  widget: Text('Card content'),
+)
+```
+
+### DizzexInputBox
+
+```dart
+DizzexInputBox(
+  controller: myController,
+  hintText: 'Enter text here',
+  title: 'Input Field',
+)
+```
+
+## Example
+
+You can check out the example usage in the `/example` folder.
+
+## License
+
+This package is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+## Contributing
+
+Feel free to open an issue or pull request if you'd like to contribute to this package.
